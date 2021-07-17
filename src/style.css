@@ -1,0 +1,42 @@
+.icon{
+    color: red;
+    font-size: 30px;
+}
+
+body{
+    background-image: linear-gradient(to right, #E6B566, #E5707E);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.box{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    color: #2B2B2B;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.card{
+    border-color: #2B2B2B;
+    border-width: 3px;
+    border-radius: 15%;
+}
+
+.button{
+    margin: 20px;
+    background-color: #2B2B2B;
+    color: white;
+    margin-left: 40%;
+}
